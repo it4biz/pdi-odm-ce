@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <job>
   <name>j_it4biz_standard_job_with_log_enable</name>
     <description/>
@@ -9,9 +8,105 @@
   <created_user>-</created_user>
   <created_date>2014&#x2f;11&#x2f;26 14&#x3a;57&#x3a;29.512</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2014&#x2f;11&#x2f;26 16&#x3a;11&#x3a;50.922</modified_date>
+  <modified_date>2014&#x2f;11&#x2f;26 18&#x3a;36&#x3a;19.969</modified_date>
     <parameters>
     </parameters>
+  <connection>
+    <name>curso_pdi_sp_nov14</name>
+    <server>&#x24;&#x7b;DW_HOST&#x7d;</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>&#x24;&#x7b;DW_DATABASE&#x7d;</database>
+    <port>&#x24;&#x7b;DW_PORT&#x7d;</port>
+    <username>&#x24;&#x7b;DW_USERNAME&#x7d;</username>
+    <password>&#x24;&#x7b;DW_PASSWORD&#x7d;</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>&#x24;&#x7b;DW_PORT&#x7d;</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dw_habitacao</name>
+    <server>&#x24;&#x7b;DW_HABITACAO_HOST&#x7d;</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>&#x24;&#x7b;DW_HABITACAO_DATABASE&#x7d;</database>
+    <port>&#x24;&#x7b;DW_HABITACAO_PORT&#x7d;</port>
+    <username>&#x24;&#x7b;DW_HABITACAO_USERNAME&#x7d;</username>
+    <password>&#x24;&#x7b;DW_HABITACAO_PASSWORD&#x7d;</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>&#x24;&#x7b;DW_HABITACAO_PORT&#x7d;</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dw_it4biz</name>
+    <server>ec2-54-147-206-66.compute-1.amazonaws.com</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>dw_it4biz</database>
+    <port>5432</port>
+    <username>dw_user</username>
+    <password>Encrypted 2be98afc82ae3a5ad9f4dac79c4c3fafa</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>pdi_odm_ce</name>
+    <server>&#x24;&#x7b;PDI_ODM_CE_HOST&#x7d;</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>&#x24;&#x7b;PDI_ODM_CE_DATABASE&#x7d;</database>
+    <port>&#x24;&#x7b;PDI_ODM_CE_PORT&#x7d;</port>
+    <username>&#x24;&#x7b;PDI_ODM_CE_USERNAME&#x7d;</username>
+    <password>&#x24;&#x7b;PDI_ODM_CE_PASSWORD&#x7d;</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>&#x24;&#x7b;PDI_ODM_CE_PORT&#x7d;</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
     <slaveservers>
     </slaveservers>
 <job-log-table><connection>&#x24;&#x7b;LOG_CONNECTION&#x7d;</connection>
@@ -35,11 +130,11 @@
    <shared_objects_file/>
   <entries>
     <entry>
-      <name>DUMMY</name>
+      <name>START</name>
       <description/>
       <type>SPECIAL</type>
-      <start>N</start>
-      <dummy>Y</dummy>
+      <start>Y</start>
+      <dummy>N</dummy>
       <repeat>N</repeat>
       <schedulerType>0</schedulerType>
       <intervalSeconds>0</intervalSeconds>
@@ -51,17 +146,36 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>224</xloc>
-      <yloc>219</yloc>
+      <xloc>147</xloc>
+      <yloc>173</yloc>
+      </entry>
+    <entry>
+      <name>Success</name>
+      <description/>
+      <type>SUCCESS</type>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>327</xloc>
+      <yloc>176</yloc>
       </entry>
   </entries>
   <hops>
+    <hop>
+      <from>START</from>
+      <to>Success</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
   </hops>
   <notepads>
     <notepad>
       <note>j_it4biz_standard_job_with_log_enable&#xa;&#xa;1&#x29; Run DDL to create the logs schema and all the log tables&#x3b;&#xa;&#xa;Visit the project page&#x3a; &#xa;https&#x3a;&#x2f;&#x2f;github.com&#x2f;it4biz&#x2f;pdi-odm-ce</note>
-      <xloc>95</xloc>
-      <yloc>65</yloc>
+      <xloc>81</xloc>
+      <yloc>0</yloc>
       <width>389</width>
       <heigth>106</heigth>
       <fontname>Lucida Grande</fontname>
