@@ -3,7 +3,7 @@ PDI ODM CE
 
 PDI Operations Mart CE is a free and open source projetc. <BR>
 It is available under the terms of the Apache License Version 2.<BR>
-Version: 1.1<BR>
+Version: 1.2<BR>
 License: Apache License Version 2<BR>
 
 How to install:
