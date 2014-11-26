@@ -8,7 +8,7 @@ How to install:
 
 CREATE DATABASE pdi_odm_ce;
 
-2) Run the DDL Script ddls-logs-transformations.sql on pgAdmin3 to create the logs schema and all the tables;
+2) Run the DDL Script ddls-pdi-odm-ce.sql on pgAdmin3 to create the logs schema and all the tables;
 
 3) Edit your kettle.properties file (/Users/caiomsouza/.kettle/kettle.properties) and add the lines below:
 
@@ -24,6 +24,8 @@ LOG_S=log_step<BR>
 LOG_P=log_performance<BR>
 LOG_LC=log_logging_channels<BR>
 LOG_M=log_metrics<BR>
+
+(See https://github.com/it4biz/pdi-operations-mart-ce/blob/master/kettle.properties)<BR>
 
 4) Put the file pdi_odm_ce.kdb (DB Connection) on your Kettle file repository and change the variables PDI_ODM_CE_USERNAME and  PDI_ODM_CE_PASSWORD
 
