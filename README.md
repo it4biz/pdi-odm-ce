@@ -1,6 +1,9 @@
-PDI Operations Data mart CE
+PDI ODM CE (PDI Operations Data mart CE)
 ======================
 
+PDI Operations Mart CE is a free and open source projetc. It is available under the terms of the Apache License Version 2.
+Version: 1.1
+License: Apache License Version 2
 
 How to install:
 
