@@ -14,16 +14,16 @@ CREATE DATABASE pdi_odm_ce;
 
 PDI_ODM_CE_HOST=localhost <BR>
 PDI_ODM_CE_DATABASE=pdi_odm_ce <BR>
-PDI_ODM_CE_PORT=5432
-PDI_ODM_CE_USERNAME=YOUR_USER
-PDI_ODM_CE_PASSWORD=YOUR_PASSWORD
-LOG_CONNECTION=pdi_odm_ce
-LOG_SCHEMA=logs
-LOG_T=log_transformation
-LOG_S=log_step
-LOG_P=log_performance
-LOG_LC=log_logging_channels
-LOG_M=log_metrics
+PDI_ODM_CE_PORT=5432<BR>
+PDI_ODM_CE_USERNAME=YOUR_USER<BR>
+PDI_ODM_CE_PASSWORD=YOUR_PASSWORD<BR>
+LOG_CONNECTION=pdi_odm_ce<BR>
+LOG_SCHEMA=logs<BR>
+LOG_T=log_transformation<BR>
+LOG_S=log_step<BR>
+LOG_P=log_performance<BR>
+LOG_LC=log_logging_channels<BR>
+LOG_M=log_metrics<BR>
 
 4) Put the file pdi_odm_ce.kdb (DB Connection) on your Kettle file repository and change the variables PDI_ODM_CE_USERNAME and  PDI_ODM_CE_PASSWORD
 
@@ -31,11 +31,11 @@ LOG_M=log_metrics
 
 6) Go to pgAdmin3 and see the results on the tables:
 
-logs.log_transformation
-logs.log_step
-logs.log_performance
-logs.log_logging_channels
-logs.log_metrics
+logs.log_transformation<BR>
+logs.log_step<BR>
+logs.log_performance<BR>
+logs.log_logging_channels<BR>
+logs.log_metrics<BR>
 
 7) Fork it and make your own contribution.
 
