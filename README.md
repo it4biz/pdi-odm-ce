@@ -2,7 +2,6 @@ PDI Operations Data mart CE
 ======================
 
 
-
 How to install:
 
 1) Open pgAdmin3 and create a database called pdi_odm_ce;
@@ -13,8 +12,8 @@ CREATE DATABASE pdi_odm_ce;
 
 3) Edit your kettle.properties file (/Users/caiomsouza/.kettle/kettle.properties) and add the lines below:
 
-PDI_ODM_CE_HOST=localhost
-PDI_ODM_CE_DATABASE=pdi_odm_ce
+PDI_ODM_CE_HOST=localhost <BR>
+PDI_ODM_CE_DATABASE=pdi_odm_ce <BR>
 PDI_ODM_CE_PORT=5432
 PDI_ODM_CE_USERNAME=YOUR_USER
 PDI_ODM_CE_PASSWORD=YOUR_PASSWORD
