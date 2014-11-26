@@ -7,7 +7,7 @@ How to install:
 
 1) Open pgAdmin3 and create a database called pdi_odm_ce;
 
-CREATE DATABASE pdi_odm_ce
+CREATE DATABASE pdi_odm_ce;
 
 2) Run the DDL Script ddls-logs-transformations.sql on pgAdmin3 to create the logs schema and all the tables;
 
