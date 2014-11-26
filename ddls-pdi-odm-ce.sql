@@ -1,7 +1,7 @@
 -- PDI Operations Mart CE
 -- PDI Operations Mart CE is a free and open source projetc. It is available under the terms of the Apache License Version 2.
 -- Created by Caio Moreno de Souza (caio@it4biz.com.br)
--- Version: 1.0
+-- Version: 1.2
 -- License: Apache License Version 2
 -- Date: 26/11/2014
 
