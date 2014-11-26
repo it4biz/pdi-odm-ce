@@ -1,7 +1,7 @@
-pdi-operations-mart-ce
+PDI Operations Data mart CE
 ======================
 
-PDI Operations Data mart CE
+
 
 How to install:
 
@@ -21,7 +21,7 @@ PDI_ODM_CE_PORT=5432
 PDI_ODM_CE_USERNAME=YOUR_USER
 PDI_ODM_CE_PASSWORD=YOUR_PASSWORD
 #LOGs Tables
-LOG_CONNECTION=curso_pdi_sp_nov14
+LOG_CONNECTION=pdi_odm_ce
 LOG_SCHEMA=logs
 LOG_T=log_transformation
 LOG_S=log_step
