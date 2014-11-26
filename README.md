@@ -13,14 +13,11 @@ CREATE DATABASE pdi_odm_ce;
 
 3) Edit your kettle.properties file (/Users/caiomsouza/.kettle/kettle.properties) and add the lines below:
 
-# PDI Operations Mart CE
-#PDI ODM CE
 PDI_ODM_CE_HOST=localhost
 PDI_ODM_CE_DATABASE=pdi_odm_ce
 PDI_ODM_CE_PORT=5432
 PDI_ODM_CE_USERNAME=YOUR_USER
 PDI_ODM_CE_PASSWORD=YOUR_PASSWORD
-#LOGs Tables
 LOG_CONNECTION=pdi_odm_ce
 LOG_SCHEMA=logs
 LOG_T=log_transformation
