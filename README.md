@@ -1,9 +1,9 @@
 PDI ODM CE (PDI Operations Data mart CE)
 ======================
 
-PDI Operations Mart CE is a free and open source projetc. It is available under the terms of the Apache License Version 2.
-Version: 1.1
-License: Apache License Version 2
+PDI Operations Mart CE is a free and open source projetc. It is available under the terms of the Apache License Version 2.<BR>
+Version: 1.1<BR>
+License: Apache License Version 2<BR>
 
 How to install:
 
@@ -28,7 +28,7 @@ LOG_P=log_performance<BR>
 LOG_LC=log_logging_channels<BR>
 LOG_M=log_metrics<BR>
 
-(See https://github.com/it4biz/pdi-operations-mart-ce/blob/master/kettle.properties)<BR>
+(See https://github.com/it4biz/pdi-odm-ce/blob/master/kettle.properties)<BR>
 
 4) Put the file pdi_odm_ce.kdb (DB Connection) on your Kettle file repository and change the variables PDI_ODM_CE_USERNAME and  PDI_ODM_CE_PASSWORD
 
