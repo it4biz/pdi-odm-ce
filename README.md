@@ -49,3 +49,7 @@ We need help to create a Data mart, an OLAP Mondrian Schema Cube and some Report
 
 To learn more about this subjetc:
 http://infocenter.pentaho.com/help48/index.jsp?topic=%2Fpdi_admin_guide%2Fconcept_pdi_operations_mart.html
+
+Contributions:
+5 (five) PRD Reports - Fabio de Salles <fabio.salles@globo.com> - 11/Dec/2014
+
