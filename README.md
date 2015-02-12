@@ -29,6 +29,11 @@ LOG_P=log_performance<BR>
 LOG_LC=log_logging_channels<BR>
 LOG_M=log_metrics<BR>
 
+Windows:
+C:\Documents and Settings\<username>\.kettle\kettle.properties
+Linux:
+/Users/<username>/.kettle/kettle.properties
+
 (See https://github.com/it4biz/pdi-odm-ce/blob/master/kettle.properties)<BR>
 
 4) Put the file pdi_odm_ce.kdb (DB Connection) on your Kettle file repository and change the variables PDI_ODM_CE_USERNAME and  PDI_ODM_CE_PASSWORD
