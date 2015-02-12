@@ -29,10 +29,10 @@ LOG_P=log_performance<BR>
 LOG_LC=log_logging_channels<BR>
 LOG_M=log_metrics<BR>
 
-Windows:
-C:\Documents and Settings\<username>\.kettle\kettle.properties
-Linux:
-/Users/<username>/.kettle/kettle.properties
+Windows:<BR>
+C:\Documents and Settings\<username>\.kettle\kettle.properties<BR>
+Linux:<BR>
+/Users/<username>/.kettle/kettle.properties<BR>
 
 (See https://github.com/it4biz/pdi-odm-ce/blob/master/kettle.properties)<BR>
 
